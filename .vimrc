@@ -10,6 +10,7 @@ Plug 'neoclide/coc.nvim'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'philrunninger/nerdtree-buffer-ops'
+Plug 'sheerun/vim-polyglot'
 call plug#end()
 " Turn on syntax highlighting
 syntax on
@@ -151,7 +152,7 @@ nnoremap <C-H> <C-W>h
 filetype plugin indent on
 
 " TODO: Pick a leader key
-" let mapleader = ","
+let mapleader = ","
 
 " Security
 set modelines=0
@@ -197,11 +198,11 @@ set hidden
 set ttyfast
 
 " Status bar
-set laststatus=2
+set laststatus=1
 
 " Last line
-set showmode
-set showcmd
+"set showmode
+"set showcmd
 
 " Searching
 nnoremap / /\v
